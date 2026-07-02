@@ -1,60 +1,34 @@
-import { eq } from "drizzle-orm";
 import { NextResponse, type NextRequest } from "next/server";
-
-import db from "@/db/drizzle";
-import { challengeOptions } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
 import { getIsAdmin } from "@/lib/admin";
 
-export const GET = async (
-  _req: NextRequest,
-  { params }: { params: Promise<{ challengeOptionId: string }> }
-) => {
+export const GET = async (_req: NextRequest, { params }: { params: Promise<{ challengeOptionId: string }> }) => {
   const { challengeOptionId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
-
-  const data = await db.query.challengeOptions.findFirst({
-    where: eq(challengeOptions.id, Number(challengeOptionId)),
-  });
-
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("challenge_options").select("*").eq("id", Number(challengeOptionId)).single();
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json(data);
 };
 
-export const PUT = async (
-  req: NextRequest,
-  { params }: { params: Promise<{ challengeOptionId: string }> }
-) => {
+export const PUT = async (req: NextRequest, { params }: { params: Promise<{ challengeOptionId: string }> }) => {
   const { challengeOptionId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
-
-  const body = (await req.json()) as typeof challengeOptions.$inferSelect;
-  const data = await db
-    .update(challengeOptions)
-    .set({
-      ...body,
-    })
-    .where(eq(challengeOptions.id, Number(challengeOptionId)))
-    .returning();
-
-  return NextResponse.json(data[0]);
+  const body = await req.json();
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("challenge_options").update(body).eq("id", Number(challengeOptionId)).select().single();
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  return NextResponse.json(data);
 };
 
-export const DELETE = async (
-  _req: NextRequest,
-  { params }: { params: Promise<{ challengeOptionId: string }> }
-) => {
+export const DELETE = async (_req: NextRequest, { params }: { params: Promise<{ challengeOptionId: string }> }) => {
   const { challengeOptionId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
-
-  const data = await db
-    .delete(challengeOptions)
-    .where(eq(challengeOptions.id, Number(challengeOptionId)))
-    .returning();
-
-  return NextResponse.json(data[0]);
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("challenge_options").delete().eq("id", Number(challengeOptionId)).select().single();
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  return NextResponse.json(data);
 };

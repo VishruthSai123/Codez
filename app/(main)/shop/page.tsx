@@ -5,20 +5,22 @@ import { FeedWrapper } from "@/components/feed-wrapper";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { UserProgress } from "@/components/user-progress";
-import { getUserProgress, getUserSubscription } from "@/db/queries";
+import { getUserProgress, getUserSubscription, getStreak } from "@/db/queries";
 
 import { Items } from "./items";
 
 const ShopPage = async () => {
   const userProgressData = getUserProgress();
   const userSubscriptionData = getUserSubscription();
+  const streakData = getStreak();
 
-  const [userProgress, userSubscription] = await Promise.all([
+  const [userProgress, userSubscription, streak] = await Promise.all([
     userProgressData,
     userSubscriptionData,
+    streakData,
   ]);
 
-  if (!userProgress || !userProgress.activeCourse) redirect("/courses");
+  if (!userProgress || !userProgress.courses) redirect("/courses");
 
   const isPro = !!userSubscription?.isActive;
 
@@ -26,10 +28,11 @@ const ShopPage = async () => {
     <div className="flex flex-row-reverse gap-[48px] px-6">
       <StickyWrapper>
         <UserProgress
-          activeCourse={userProgress.activeCourse}
+          activeCourse={userProgress.courses}
           hearts={userProgress.hearts}
           points={userProgress.points}
           hasActiveSubscription={isPro}
+          streak={streak?.streak_count || 0}
         />
 
         <Quests points={userProgress.points} />

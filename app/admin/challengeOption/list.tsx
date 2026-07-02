@@ -14,9 +14,9 @@ export const ChallengeOptionsList = () => {
         <NumberField source="id" />
         <TextField source="text" />
         <BooleanField source="correct" />
-        <ReferenceField source="challengeId" reference="challenges" />
-        <TextField source="imageSrc" />
-        <TextField source="audioSrc" />
+        <ReferenceField source="challenge_id" reference="challenges" />
+        <TextField source="image_src" />
+        <TextField source="audio_src" />
       </Datagrid>
     </List>
   );

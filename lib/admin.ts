@@ -1,10 +1,11 @@
-import { auth } from "@clerk/nextjs/server";
+import { createClient } from "@/lib/supabase/server";
 
 export const getIsAdmin = async () => {
-  const { userId } = await auth();
-  const adminIds = process.env.CLERK_ADMIN_IDS.split(", "); // stored in .env file as string separated by comma(,) and space( )
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  const adminIds = (process.env.ADMIN_USER_IDS || "").split(", "); // stored in .env file as string separated by comma(,) and space( )
 
-  if (!userId) return false;
+  if (!user) return false;
 
-  return adminIds.indexOf(userId) !== -1;
+  return adminIds.indexOf(user.id) !== -1;
 };

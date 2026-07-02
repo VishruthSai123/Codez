@@ -1,25 +1,30 @@
 "use server";
 
-import { auth, currentUser } from "@clerk/nextjs/server";
-
 import { getUserSubscription } from "@/db/queries";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
+import { createClient } from "@/lib/supabase/server";
 
 const returnUrl = absoluteUrl("/shop");
 
 export const createStripeUrl = async () => {
-  const { userId } = await auth();
-  const user = await currentUser();
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
 
-  if (!userId || !user) throw new Error("Unauthorized.");
+  if (!user) return { error: "Unauthorized." };
+  const userId = user.id;
+
+  if (!process.env.STRIPE_API_SECRET_KEY) {
+    return { error: "Stripe payments are not configured on this server." };
+  }
 
   const userSubscription = await getUserSubscription();
 
+  try {
   // redirect user to customer portal who already have a subscription
-  if (userSubscription && userSubscription.stripeCustomerId) {
+  if (userSubscription && userSubscription.stripe_customer_id) {
     const stripeSession = await stripe.billingPortal.sessions.create({
-      customer: userSubscription.stripeCustomerId,
+      customer: userSubscription.stripe_customer_id,
       return_url: returnUrl,
     });
 
@@ -30,7 +35,7 @@ export const createStripeUrl = async () => {
   const stripeSession = await stripe.checkout.sessions.create({
     mode: "subscription",
     payment_method_types: ["card"],
-    customer_email: user.emailAddresses[0].emailAddress,
+    customer_email: user.email!,
     line_items: [
       {
         quantity: 1,
@@ -55,4 +60,8 @@ export const createStripeUrl = async () => {
   });
 
   return { data: stripeSession.url };
+} catch (error) {
+  console.error("Stripe API Error:", error);
+  return { error: "Failed to create checkout session." };
+}
 };

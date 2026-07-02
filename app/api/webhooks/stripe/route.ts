@@ -1,10 +1,8 @@
-import { eq } from "drizzle-orm";
 import { headers } from "next/headers";
 import { NextResponse, type NextRequest } from "next/server";
 import Stripe from "stripe";
 
-import db from "@/db/drizzle";
-import { userSubscription } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
 import { stripe } from "@/lib/stripe";
 
 export async function POST(req: NextRequest) {
@@ -36,14 +34,15 @@ export async function POST(req: NextRequest) {
     if (!session?.metadata?.userId)
       return new NextResponse("User id is required.", { status: 400 });
 
-    await db.insert(userSubscription).values({
-      userId: session.metadata.userId,
-      stripeSubscriptionId: subscription.id,
-      stripeCustomerId: subscription.customer as string,
-      stripePriceId: subscription.items.data[0].price.id,
-      stripeCurrentPeriodEnd: new Date(
+    const supabase = await createClient();
+    await supabase.from("user_subscription").insert({
+      user_id: session.metadata.userId,
+      stripe_subscription_id: subscription.id,
+      stripe_customer_id: subscription.customer as string,
+      stripe_price_id: subscription.items.data[0].price.id,
+      stripe_current_period_end: new Date(
         subscription.items.data[0].current_period_end * 1000
-      ), // in ms
+      ).toISOString(),
     });
   }
 
@@ -53,15 +52,16 @@ export async function POST(req: NextRequest) {
       session.subscription as string
     );
 
-    await db
-      .update(userSubscription)
-      .set({
-        stripePriceId: subscription.items.data[0].price.id,
-        stripeCurrentPeriodEnd: new Date(
-          subscription.items.data[0].current_period_end * 1000 // in ms
-        ),
+    const supabase = await createClient();
+    await supabase
+      .from("user_subscription")
+      .update({
+        stripe_price_id: subscription.items.data[0].price.id,
+        stripe_current_period_end: new Date(
+          subscription.items.data[0].current_period_end * 1000
+        ).toISOString(),
       })
-      .where(eq(userSubscription.stripeSubscriptionId, subscription.id));
+      .eq("stripe_subscription_id", subscription.id);
   }
 
   return new NextResponse(null, { status: 200 });

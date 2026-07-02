@@ -1,30 +1,33 @@
 import { type NextRequest, NextResponse } from "next/server";
 
-import db from "@/db/drizzle";
-import { courses } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
 import { getIsAdmin } from "@/lib/admin";
 
 export const GET = async () => {
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
 
-  const data = await db.query.courses.findMany();
+  const supabase = await createClient();
+  const { data, error, count } = await supabase.from("courses").select("*", { count: 'exact' });
 
-  return NextResponse.json(data);
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  return new NextResponse(JSON.stringify(data), {
+    headers: {
+      "Content-Range": `courses 0-${data ? data.length : 0}/${count}`,
+    },
+  });
 };
 
 export const POST = async (req: NextRequest) => {
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
 
-  const body = (await req.json()) as typeof courses.$inferSelect;
+  const body = await req.json();
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("courses").insert(body).select().single();
 
-  const data = await db
-    .insert(courses)
-    .values({
-      ...body,
-    })
-    .returning();
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-  return NextResponse.json(data[0]);
+  return NextResponse.json(data);
 };

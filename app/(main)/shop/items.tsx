@@ -27,7 +27,15 @@ export const Items = ({
     if (pending || hearts === MAX_HEARTS || points < POINTS_TO_REFILL) return;
 
     startTransition(() => {
-      refillHearts().catch(() => toast.error("Something went wrong."));
+      refillHearts()
+        .then((res) => {
+          if (res?.error) {
+            toast.error(res.error);
+          } else {
+            toast.success("Hearts refilled!");
+          }
+        })
+        .catch(() => toast.error("Something went wrong."));
     });
   };
 
@@ -36,7 +44,11 @@ export const Items = ({
     startTransition(() => {
       createStripeUrl()
         .then((response) => {
-          if (response.data) window.location.href = response.data;
+          if (response.error) {
+            toast.error(response.error);
+          } else if (response.data) {
+            window.location.href = response.data;
+          }
         })
         .catch(() => toast.error("Something went wrong."));
     });

@@ -1,9 +1,10 @@
+import * as React from "react";
 import { useCallback } from "react";
 
 import Image from "next/image";
-import { useAudio, useKey } from "react-use";
+import { useKey } from "react-use";
 
-import { challenges } from "@/db/schema";
+import type { ChallengeType } from "@/db/types";
 import { cn } from "@/lib/utils";
 
 type CardProps = {
@@ -16,7 +17,7 @@ type CardProps = {
   onClick: () => void;
   status?: "correct" | "wrong" | "none";
   disabled?: boolean;
-  type: (typeof challenges.$inferSelect)["type"];
+  type: ChallengeType;
 };
 
 export const Card = ({
@@ -30,15 +31,18 @@ export const Card = ({
   disabled,
   type,
 }: CardProps) => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [audio, _, controls] = useAudio({ src: audioSrc || "" });
+  const audioRef = React.useRef<HTMLAudioElement>(null);
 
   const handleClick = useCallback(() => {
     if (disabled) return;
 
-    void controls.play();
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+      audioRef.current.play().catch(() => {});
+    }
+    
     onClick();
-  }, [disabled, onClick, controls]);
+  }, [disabled, onClick]);
 
   useKey(shortcut, handleClick, {}, [handleClick]);
 
@@ -58,7 +62,7 @@ export const Card = ({
         type === "ASSIST" && "w-full lg:p-3"
       )}
     >
-      {audio}
+      {audioSrc && <audio ref={audioRef} src={audioSrc} />}
       {imageSrc && (
         <div className="relative mb-4 aspect-square max-h-[80px] w-full lg:max-h-[150px]">
           <Image src={imageSrc} fill alt={text} />

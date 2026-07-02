@@ -13,9 +13,9 @@ export const ChallengeOptionCreate = () => {
       <SimpleForm>
         <TextInput source="text" validate={[required()]} label="Text" />
         <BooleanInput source="correct" label="Correct option" />
-        <ReferenceInput source="challengeId" reference="challenges" />
-        <TextInput source="imageSrc" label="Image URL" />
-        <TextInput source="audioSrc" label="Audio URL" />
+        <ReferenceInput source="challenge_id" reference="challenges" />
+        <TextInput source="image_src" label="Image URL" />
+        <TextInput source="audio_src" label="Audio URL" />
       </SimpleForm>
     </Create>
   );

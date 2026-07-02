@@ -7,8 +7,8 @@ import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
-import { UserProgress } from "@/components/user-progress";
 import {
+  getStreak,
   getTopTenUsers,
   getUserProgress,
   getUserSubscription,
@@ -18,26 +18,22 @@ const LeaderboardPage = async () => {
   const userProgressData = getUserProgress();
   const userSubscriptionData = getUserSubscription();
   const leaderboardData = getTopTenUsers();
+  const streakData = getStreak();
 
-  const [userProgress, userSubscription, leaderboard] = await Promise.all([
+  const [userProgress, userSubscription, leaderboard, streak] = await Promise.all([
     userProgressData,
     userSubscriptionData,
     leaderboardData,
+    streakData,
   ]);
 
-  if (!userProgress || !userProgress.activeCourse) redirect("/courses");
+  if (!userProgress) redirect("/onboarding");
 
   const isPro = !!userSubscription?.isActive;
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
       <StickyWrapper>
-        <UserProgress
-          activeCourse={userProgress.activeCourse}
-          hearts={userProgress.hearts}
-          points={userProgress.points}
-          hasActiveSubscription={isPro}
-        />
         {!isPro && <Promo />}
         <Quests points={userProgress.points} />
       </StickyWrapper>
@@ -59,24 +55,24 @@ const LeaderboardPage = async () => {
           </p>
 
           <Separator className="mb-4 h-0.5 rounded-full" />
-          {leaderboard.map((userProgress, i) => (
+          {leaderboard.map((up, i) => (
             <div
-              key={userProgress.userId}
+              key={up.user_id}
               className="flex w-full items-center rounded-xl p-2 px-4 hover:bg-gray-200/50"
             >
               <p className="mr-4 font-bold text-lime-700">{i + 1}</p>
 
               <Avatar className="ml-3 mr-6 h-12 w-12 border bg-green-500">
                 <AvatarImage
-                  src={userProgress.userImageSrc}
+                  src={up.user_image_src}
                   className="object-cover"
                 />
               </Avatar>
 
               <p className="flex-1 font-bold text-neutral-800">
-                {userProgress.userName}
+                {up.user_name}
               </p>
-              <p className="text-muted-foreground">{userProgress.points} XP</p>
+              <p className="text-muted-foreground">{up.points} XP</p>
             </div>
           ))}
         </div>

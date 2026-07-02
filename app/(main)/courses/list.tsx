@@ -6,13 +6,13 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 import { upsertUserProgress } from "@/actions/user-progress";
-import { courses, userProgress } from "@/db/schema";
+import type { Course } from "@/db/types";
 
 import { Card } from "./card";
 
 type ListProps = {
-  courses: (typeof courses.$inferSelect)[];
-  activeCourseId?: typeof userProgress.$inferSelect.activeCourseId;
+  courses: Course[];
+  activeCourseId?: number | null;
 };
 
 export const List = ({ courses, activeCourseId }: ListProps) => {
@@ -36,7 +36,7 @@ export const List = ({ courses, activeCourseId }: ListProps) => {
           key={course.id}
           id={course.id}
           title={course.title}
-          imageSrc={course.imageSrc}
+          imageSrc={course.image_src}
           onClick={onClick}
           disabled={pending}
           isActive={course.id === activeCourseId}

@@ -1,8 +1,6 @@
-import { eq } from "drizzle-orm";
 import { NextResponse, type NextRequest } from "next/server";
 
-import db from "@/db/drizzle";
-import { courses } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
 import { getIsAdmin } from "@/lib/admin";
 
 export const GET = async (
@@ -10,14 +8,13 @@ export const GET = async (
   { params }: { params: Promise<{ courseId: string }> }
 ) => {
   const { courseId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
 
-  const data = await db.query.courses.findFirst({
-    where: eq(courses.id, Number(courseId)),
-  });
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("courses").select("*").eq("id", Number(courseId)).single();
 
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
   return NextResponse.json(data);
 };
 
@@ -26,20 +23,15 @@ export const PUT = async (
   { params }: { params: Promise<{ courseId: string }> }
 ) => {
   const { courseId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
 
-  const body = (await req.json()) as typeof courses.$inferSelect;
-  const data = await db
-    .update(courses)
-    .set({
-      ...body,
-    })
-    .where(eq(courses.id, Number(courseId)))
-    .returning();
+  const body = await req.json();
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("courses").update(body).eq("id", Number(courseId)).select().single();
 
-  return NextResponse.json(data[0]);
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  return NextResponse.json(data);
 };
 
 export const DELETE = async (
@@ -47,14 +39,12 @@ export const DELETE = async (
   { params }: { params: Promise<{ courseId: string }> }
 ) => {
   const { courseId } = await params;
-
   const isAdmin = await getIsAdmin();
   if (!isAdmin) return new NextResponse("Unauthorized.", { status: 401 });
 
-  const data = await db
-    .delete(courses)
-    .where(eq(courses.id, Number(courseId)))
-    .returning();
+  const supabase = await createClient();
+  const { data, error } = await supabase.from("courses").delete().eq("id", Number(courseId)).select().single();
 
-  return NextResponse.json(data[0]);
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  return NextResponse.json(data);
 };

@@ -1,38 +1,45 @@
 "use server";
 
-import { auth } from "@clerk/nextjs/server";
-import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 
 import { MAX_HEARTS } from "@/constants";
-import db from "@/db/drizzle";
 import { getUserProgress, getUserSubscription } from "@/db/queries";
-import { challengeProgress, challenges, userProgress } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
+import { updateStreak } from "./user-streak";
+import { checkAndRecordCourseCompletion } from "./course-completion";
+import { checkAndUnlockAchievements } from "./achievements";
 
-export const upsertChallengeProgress = async (challengeId: number) => {
-  const { userId } = await auth();
+export const upsertChallengeProgress = async (
+  challengeId: number,
+  revalidate: boolean = true
+) => {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
 
-  if (!userId) throw new Error("Unauthorized.");
+  if (!user) throw new Error("Unauthorized.");
+  const userId = user.id;
 
   const currentUserProgress = await getUserProgress();
   const userSubscription = await getUserSubscription();
 
   if (!currentUserProgress) throw new Error("User progress not found.");
 
-  const challenge = await db.query.challenges.findFirst({
-    where: eq(challenges.id, challengeId),
-  });
+  const { data: challenge, error: challengeError } = await supabase
+    .from("challenges")
+    .select("*")
+    .eq("id", challengeId)
+    .single();
 
-  if (!challenge) throw new Error("Challenge not found.");
+  if (challengeError || !challenge) throw new Error("Challenge not found.");
 
-  const lessonId = challenge.lessonId;
+  const lessonId = challenge.lesson_id;
 
-  const existingChallengeProgress = await db.query.challengeProgress.findFirst({
-    where: and(
-      eq(challengeProgress.userId, userId),
-      eq(challengeProgress.challengeId, challengeId)
-    ),
-  });
+  const { data: existingChallengeProgress } = await supabase
+    .from("challenge_progress")
+    .select("*")
+    .eq("user_id", userId)
+    .eq("challenge_id", challengeId)
+    .single();
 
   const isPractice = !!existingChallengeProgress;
 
@@ -44,45 +51,77 @@ export const upsertChallengeProgress = async (challengeId: number) => {
     return { error: "hearts" };
 
   if (isPractice) {
-    await db
-      .update(challengeProgress)
-      .set({
-        completed: true,
-      })
-      .where(eq(challengeProgress.id, existingChallengeProgress.id));
+    const { error: updateProgressError } = await supabase
+      .from("challenge_progress")
+      .update({ completed: true })
+      .eq("id", existingChallengeProgress.id);
 
-    await db
-      .update(userProgress)
-      .set({
+    if (updateProgressError) throw new Error(updateProgressError.message);
+
+    const { error: updateUserError } = await supabase
+      .from("user_progress")
+      .update({
         hearts: Math.min(currentUserProgress.hearts + 1, MAX_HEARTS),
         points: currentUserProgress.points + 10,
       })
-      .where(eq(userProgress.userId, userId));
+      .eq("user_id", userId);
 
+    if (updateUserError) throw new Error(updateUserError.message);
+
+    const unlockedAchievements = await checkAndUnlockAchievements(userId);
+
+    if (revalidate) {
+      revalidatePath("/learn");
+      revalidatePath("/profile");
+      revalidatePath("/lesson");
+      revalidatePath("/quests");
+      revalidatePath("/leaderboard");
+      revalidatePath(`/lesson/${lessonId}`);
+    }
+    return { success: true, unlockedAchievements };
+  }
+
+  const { error: insertError } = await supabase
+    .from("challenge_progress")
+    .insert({
+      challenge_id: challengeId,
+      user_id: userId,
+      completed: true,
+    });
+
+  if (insertError) throw new Error(insertError.message);
+
+  const { error: updateError } = await supabase
+    .from("user_progress")
+    .update({
+      points: currentUserProgress.points + 10,
+    })
+    .eq("user_id", userId);
+
+  if (updateError) throw new Error(updateError.message);
+
+  await updateStreak();
+
+  // Check if course is completed (extracted to dedicated action)
+  if (currentUserProgress.active_course_id) {
+    await checkAndRecordCourseCompletion(
+      currentUserProgress.active_course_id,
+      revalidate
+    );
+  }
+
+  // Check and unlock any new achievements
+  const unlockedAchievements = await checkAndUnlockAchievements(userId);
+
+  if (revalidate) {
     revalidatePath("/learn");
+    revalidatePath("/profile");
     revalidatePath("/lesson");
     revalidatePath("/quests");
     revalidatePath("/leaderboard");
     revalidatePath(`/lesson/${lessonId}`);
-    return;
   }
 
-  await db.insert(challengeProgress).values({
-    challengeId,
-    userId,
-    completed: true,
-  });
-
-  await db
-    .update(userProgress)
-    .set({
-      points: currentUserProgress.points + 10,
-    })
-    .where(eq(userProgress.userId, userId));
-
-  revalidatePath("/learn");
-  revalidatePath("/lesson");
-  revalidatePath("/quests");
-  revalidatePath("/leaderboard");
-  revalidatePath(`/lesson/${lessonId}`);
+  return { success: true, unlockedAchievements };
 };
+

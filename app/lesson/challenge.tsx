@@ -1,15 +1,15 @@
-import { challengeOptions, challenges } from "@/db/schema";
+import type { ChallengeOption, ChallengeType } from "@/db/types";
 import { cn } from "@/lib/utils";
 
 import { Card } from "./card";
 
 type ChallengeProps = {
-  options: (typeof challengeOptions.$inferSelect)[];
+  options: ChallengeOption[];
   onSelect: (id: number) => void;
   status: "correct" | "wrong" | "none";
   selectedOption?: number;
   disabled?: boolean;
-  type: (typeof challenges.$inferSelect)["type"];
+  type: ChallengeType;
 };
 
 export const Challenge = ({
@@ -34,12 +34,12 @@ export const Challenge = ({
           key={option.id}
           id={option.id}
           text={option.text}
-          imageSrc={option.imageSrc}
+          imageSrc={option.image_src}
           shortcut={`${i + 1}`}
           selected={selectedOption === option.id}
           onClick={() => onSelect(option.id)}
           status={status}
-          audioSrc={option.audioSrc}
+          audioSrc={option.audio_src}
           disabled={disabled}
           type={type}
         />

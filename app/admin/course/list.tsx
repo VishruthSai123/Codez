@@ -6,7 +6,7 @@ export const CourseList = () => {
       <Datagrid rowClick="edit">
         <NumberField source="id" />
         <TextField source="title" />
-        <TextField source="imageSrc" />
+        <TextField source="image_src" />
       </Datagrid>
     </List>
   );

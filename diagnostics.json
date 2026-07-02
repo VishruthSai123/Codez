@@ -1,0 +1,7777 @@
+{
+  "courses": [
+    {
+      "id": 5,
+      "title": "JavaScript",
+      "image_src": "/js.svg",
+      "category": "Web Development",
+      "difficulty": "Beginner to Intermediate",
+      "estimated_time": "45 hours",
+      "popularity_score": 100,
+      "is_new": true,
+      "description": "Master JavaScript from fundamental syntax to interactive web DOM manipulation.",
+      "skills_learned": [],
+      "lesson_count": 100,
+      "xp_reward": 5000,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Web",
+        "Frontend",
+        "Interactive",
+        "Beginner Friendly"
+      ],
+      "color_hex": "#fbbf24",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 6,
+      "title": "TypeScript",
+      "image_src": "/typescript.svg",
+      "category": "Web Development",
+      "difficulty": "Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "JavaScript with syntax for types. Scale your web apps.",
+      "skills_learned": [],
+      "lesson_count": 120,
+      "xp_reward": 4500,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Web Development",
+        "Frontend",
+        "Intermediate"
+      ],
+      "color_hex": "#2563eb",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 7,
+      "title": "Java",
+      "image_src": "/java.svg",
+      "category": "Backend",
+      "difficulty": "Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Write once, run anywhere. Enterprise grade backend.",
+      "skills_learned": [],
+      "lesson_count": 180,
+      "xp_reward": 5500,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Backend",
+        "Enterprise",
+        "Intermediate"
+      ],
+      "color_hex": "#ef4444",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 8,
+      "title": "Kotlin",
+      "image_src": "/kotlin.svg",
+      "category": "Mobile Development",
+      "difficulty": "Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Modern, concise, and safe. The official language of Android.",
+      "skills_learned": [],
+      "lesson_count": 100,
+      "xp_reward": 4000,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Mobile Development",
+        "Android",
+        "Intermediate"
+      ],
+      "color_hex": "#8b5cf6",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 9,
+      "title": "C",
+      "image_src": "/c.svg",
+      "category": "Systems",
+      "difficulty": "Advanced",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "The mother of all languages. Understand memory and systems.",
+      "skills_learned": [],
+      "lesson_count": 80,
+      "xp_reward": 3000,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Systems",
+        "Low Level",
+        "Advanced"
+      ],
+      "color_hex": "#6b7280",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 10,
+      "title": "C++",
+      "image_src": "/cpp.svg",
+      "category": "Systems",
+      "difficulty": "Advanced",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "High performance systems and game engine development.",
+      "skills_learned": [],
+      "lesson_count": 140,
+      "xp_reward": 5000,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Systems",
+        "Game Dev",
+        "Advanced"
+      ],
+      "color_hex": "#0ea5e9",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 11,
+      "title": "C#",
+      "image_src": "/csharp.svg",
+      "category": "Game Development",
+      "difficulty": "Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Build Windows apps, web backends, and games with Unity.",
+      "skills_learned": [],
+      "lesson_count": 130,
+      "xp_reward": 4500,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Game Dev",
+        "Backend",
+        "Enterprise"
+      ],
+      "color_hex": "#10b981",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 12,
+      "title": "Go",
+      "image_src": "/go.svg",
+      "category": "Backend",
+      "difficulty": "Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Build fast, reliable, and efficient software at scale.",
+      "skills_learned": [],
+      "lesson_count": 90,
+      "xp_reward": 3500,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Backend",
+        "Cloud",
+        "Microservices"
+      ],
+      "color_hex": "#06b6d4",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 13,
+      "title": "Rust",
+      "image_src": "/rust.svg",
+      "category": "Systems",
+      "difficulty": "Advanced",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Blazingly fast and memory-efficient with no runtime.",
+      "skills_learned": [],
+      "lesson_count": 110,
+      "xp_reward": 4800,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Systems",
+        "WebAssembly",
+        "Advanced"
+      ],
+      "color_hex": "#f97316",
+      "estimated_hours": 0,
+      "outcomes": [],
+      "version": 1
+    },
+    {
+      "id": 2,
+      "title": "Python",
+      "image_src": "/python.svg",
+      "category": "Uncategorized",
+      "difficulty": "Beginner to Intermediate",
+      "estimated_time": "5 hours",
+      "popularity_score": 0,
+      "is_new": false,
+      "description": "Learn Python from absolute zero to confident programmer. 100 lessons, 15 units, hands-on projects.",
+      "skills_learned": [],
+      "lesson_count": 10,
+      "xp_reward": 1000,
+      "projects_count": 1,
+      "has_certificate": true,
+      "prerequisites": [],
+      "tags": [
+        "Beginner Friendly",
+        "Backend",
+        "Data Science",
+        "Automation"
+      ],
+      "color_hex": "#3b82f6",
+      "estimated_hours": 50,
+      "outcomes": [
+        "Write Python programs",
+        "Build CLI tools",
+        "Handle files & data",
+        "Understand OOP basics"
+      ],
+      "version": 1
+    }
+  ],
+  "units": [
+    {
+      "course_id": 2,
+      "id": 22,
+      "title": "Unit 1",
+      "order": 1
+    },
+    {
+      "course_id": 2,
+      "id": 23,
+      "title": "Unit 2",
+      "order": 2
+    },
+    {
+      "course_id": 2,
+      "id": 24,
+      "title": "Unit 3",
+      "order": 3
+    },
+    {
+      "course_id": 2,
+      "id": 25,
+      "title": "Unit 4",
+      "order": 4
+    },
+    {
+      "course_id": 2,
+      "id": 26,
+      "title": "Unit 5",
+      "order": 5
+    },
+    {
+      "course_id": 2,
+      "id": 27,
+      "title": "Unit 6",
+      "order": 6
+    },
+    {
+      "course_id": 2,
+      "id": 28,
+      "title": "Unit 7",
+      "order": 7
+    },
+    {
+      "course_id": 2,
+      "id": 29,
+      "title": "Unit 8",
+      "order": 8
+    },
+    {
+      "course_id": 2,
+      "id": 30,
+      "title": "Unit 9",
+      "order": 9
+    },
+    {
+      "course_id": 2,
+      "id": 31,
+      "title": "Unit 10",
+      "order": 10
+    },
+    {
+      "course_id": 2,
+      "id": 32,
+      "title": "Unit 11",
+      "order": 11
+    },
+    {
+      "course_id": 2,
+      "id": 33,
+      "title": "Unit 12",
+      "order": 12
+    },
+    {
+      "course_id": 2,
+      "id": 34,
+      "title": "Unit 13",
+      "order": 13
+    },
+    {
+      "course_id": 2,
+      "id": 35,
+      "title": "Unit 14",
+      "order": 14
+    },
+    {
+      "course_id": 2,
+      "id": 36,
+      "title": "Unit 15",
+      "order": 15
+    },
+    {
+      "course_id": 5,
+      "id": 50,
+      "title": "Unit 1",
+      "order": 1
+    },
+    {
+      "course_id": 5,
+      "id": 51,
+      "title": "Unit 2",
+      "order": 2
+    },
+    {
+      "course_id": 5,
+      "id": 52,
+      "title": "Unit 3",
+      "order": 3
+    },
+    {
+      "course_id": 5,
+      "id": 53,
+      "title": "Unit 4",
+      "order": 4
+    },
+    {
+      "course_id": 5,
+      "id": 54,
+      "title": "Unit 5",
+      "order": 5
+    },
+    {
+      "course_id": 5,
+      "id": 55,
+      "title": "Unit 6",
+      "order": 6
+    },
+    {
+      "course_id": 5,
+      "id": 56,
+      "title": "Unit 7",
+      "order": 7
+    },
+    {
+      "course_id": 5,
+      "id": 57,
+      "title": "Unit 8",
+      "order": 8
+    },
+    {
+      "course_id": 5,
+      "id": 58,
+      "title": "Unit 9",
+      "order": 9
+    },
+    {
+      "course_id": 5,
+      "id": 59,
+      "title": "Unit 10",
+      "order": 10
+    },
+    {
+      "course_id": 5,
+      "id": 60,
+      "title": "Unit 11",
+      "order": 11
+    },
+    {
+      "course_id": 5,
+      "id": 61,
+      "title": "Unit 12",
+      "order": 12
+    },
+    {
+      "course_id": 5,
+      "id": 62,
+      "title": "Unit 13",
+      "order": 13
+    },
+    {
+      "course_id": 5,
+      "id": 63,
+      "title": "Unit 14",
+      "order": 14
+    },
+    {
+      "course_id": 5,
+      "id": 64,
+      "title": "Unit 15",
+      "order": 15
+    }
+  ],
+  "lessons": [
+    {
+      "unit_id": 22,
+      "id": 131,
+      "title": "What is Programming?",
+      "order": 1
+    },
+    {
+      "unit_id": 22,
+      "id": 132,
+      "title": "Meet Python",
+      "order": 2
+    },
+    {
+      "unit_id": 22,
+      "id": 133,
+      "title": "Your First Program",
+      "order": 3
+    },
+    {
+      "unit_id": 22,
+      "id": 134,
+      "title": "Printing Text",
+      "order": 4
+    },
+    {
+      "unit_id": 22,
+      "id": 135,
+      "title": "Comments",
+      "order": 5
+    },
+    {
+      "unit_id": 22,
+      "id": 136,
+      "title": "Errors Are Normal",
+      "order": 6
+    },
+    {
+      "unit_id": 22,
+      "id": 137,
+      "title": "Practice: Printing",
+      "order": 7
+    },
+    {
+      "unit_id": 22,
+      "id": 138,
+      "title": "Checkpoint 1",
+      "order": 8
+    },
+    {
+      "unit_id": 23,
+      "id": 139,
+      "title": "What is a Variable?",
+      "order": 1
+    },
+    {
+      "unit_id": 23,
+      "id": 140,
+      "title": "Creating Variables",
+      "order": 2
+    },
+    {
+      "unit_id": 23,
+      "id": 141,
+      "title": "Variable Naming Rules",
+      "order": 3
+    },
+    {
+      "unit_id": 23,
+      "id": 142,
+      "title": "Changing Variables",
+      "order": 4
+    },
+    {
+      "unit_id": 23,
+      "id": 143,
+      "title": "Printing Variables",
+      "order": 5
+    },
+    {
+      "unit_id": 23,
+      "id": 144,
+      "title": "Multiple Variables",
+      "order": 6
+    },
+    {
+      "unit_id": 23,
+      "id": 145,
+      "title": "Practice: Variables",
+      "order": 7
+    },
+    {
+      "unit_id": 23,
+      "id": 146,
+      "title": "Checkpoint 2",
+      "order": 8
+    },
+    {
+      "unit_id": 24,
+      "id": 147,
+      "title": "Strings",
+      "order": 1
+    },
+    {
+      "unit_id": 24,
+      "id": 148,
+      "title": "Integers",
+      "order": 2
+    },
+    {
+      "unit_id": 24,
+      "id": 149,
+      "title": "Floats",
+      "order": 3
+    },
+    {
+      "unit_id": 24,
+      "id": 150,
+      "title": "Booleans",
+      "order": 4
+    },
+    {
+      "unit_id": 24,
+      "id": 151,
+      "title": "Checking Types",
+      "order": 5
+    },
+    {
+      "unit_id": 24,
+      "id": 152,
+      "title": "Practice: Data Types",
+      "order": 6
+    },
+    {
+      "unit_id": 24,
+      "id": 153,
+      "title": "Checkpoint 3",
+      "order": 7
+    },
+    {
+      "unit_id": 25,
+      "id": 154,
+      "title": "Addition & Subtraction",
+      "order": 1
+    },
+    {
+      "unit_id": 25,
+      "id": 155,
+      "title": "Multiplication & Division",
+      "order": 2
+    },
+    {
+      "unit_id": 25,
+      "id": 156,
+      "title": "Floor Division & Modulo",
+      "order": 3
+    },
+    {
+      "unit_id": 25,
+      "id": 157,
+      "title": "Exponents",
+      "order": 4
+    },
+    {
+      "unit_id": 25,
+      "id": 158,
+      "title": "Order of Operations",
+      "order": 5
+    },
+    {
+      "unit_id": 25,
+      "id": 159,
+      "title": "Practice: Arithmetic",
+      "order": 6
+    },
+    {
+      "unit_id": 25,
+      "id": 160,
+      "title": "Checkpoint 4",
+      "order": 7
+    },
+    {
+      "unit_id": 26,
+      "id": 161,
+      "title": "String Concatenation",
+      "order": 1
+    },
+    {
+      "unit_id": 26,
+      "id": 162,
+      "title": "String Length",
+      "order": 2
+    },
+    {
+      "unit_id": 26,
+      "id": 163,
+      "title": "String Indexing",
+      "order": 3
+    },
+    {
+      "unit_id": 26,
+      "id": 164,
+      "title": "String Slicing",
+      "order": 4
+    },
+    {
+      "unit_id": 26,
+      "id": 165,
+      "title": "String Methods",
+      "order": 5
+    },
+    {
+      "unit_id": 26,
+      "id": 166,
+      "title": "f-Strings",
+      "order": 6
+    },
+    {
+      "unit_id": 26,
+      "id": 167,
+      "title": "Practice: Strings",
+      "order": 7
+    },
+    {
+      "unit_id": 26,
+      "id": 168,
+      "title": "Checkpoint 5",
+      "order": 8
+    },
+    {
+      "unit_id": 27,
+      "id": 169,
+      "title": "The input() Function",
+      "order": 1
+    },
+    {
+      "unit_id": 27,
+      "id": 170,
+      "title": "Type Conversion",
+      "order": 2
+    },
+    {
+      "unit_id": 27,
+      "id": 171,
+      "title": "Age Calculator",
+      "order": 3
+    },
+    {
+      "unit_id": 27,
+      "id": 172,
+      "title": "Practice: User Input",
+      "order": 4
+    },
+    {
+      "unit_id": 27,
+      "id": 173,
+      "title": "Checkpoint 6",
+      "order": 5
+    },
+    {
+      "unit_id": 28,
+      "id": 174,
+      "title": "Comparison Operators",
+      "order": 1
+    },
+    {
+      "unit_id": 28,
+      "id": 175,
+      "title": "Boolean Expressions",
+      "order": 2
+    },
+    {
+      "unit_id": 28,
+      "id": 176,
+      "title": "The and Operator",
+      "order": 3
+    },
+    {
+      "unit_id": 28,
+      "id": 177,
+      "title": "The or Operator",
+      "order": 4
+    },
+    {
+      "unit_id": 28,
+      "id": 178,
+      "title": "The not Operator",
+      "order": 5
+    },
+    {
+      "unit_id": 28,
+      "id": 179,
+      "title": "Practice: Logic",
+      "order": 6
+    },
+    {
+      "unit_id": 28,
+      "id": 180,
+      "title": "Checkpoint 7",
+      "order": 7
+    },
+    {
+      "unit_id": 29,
+      "id": 181,
+      "title": "The if Statement",
+      "order": 1
+    },
+    {
+      "unit_id": 29,
+      "id": 182,
+      "title": "The else Statement",
+      "order": 2
+    },
+    {
+      "unit_id": 29,
+      "id": 183,
+      "title": "The elif Statement",
+      "order": 3
+    },
+    {
+      "unit_id": 29,
+      "id": 184,
+      "title": "Nested Conditions",
+      "order": 4
+    },
+    {
+      "unit_id": 29,
+      "id": 185,
+      "title": "Combining Conditions",
+      "order": 5
+    },
+    {
+      "unit_id": 29,
+      "id": 186,
+      "title": "Grade Calculator",
+      "order": 6
+    },
+    {
+      "unit_id": 29,
+      "id": 187,
+      "title": "Practice: Conditionals",
+      "order": 7
+    },
+    {
+      "unit_id": 29,
+      "id": 188,
+      "title": "Checkpoint 8",
+      "order": 8
+    },
+    {
+      "unit_id": 30,
+      "id": 189,
+      "title": "The for Loop",
+      "order": 1
+    },
+    {
+      "unit_id": 30,
+      "id": 190,
+      "title": "The range() Function",
+      "order": 2
+    },
+    {
+      "unit_id": 30,
+      "id": 191,
+      "title": "Loop with Strings",
+      "order": 3
+    },
+    {
+      "unit_id": 30,
+      "id": 192,
+      "title": "The while Loop",
+      "order": 4
+    },
+    {
+      "unit_id": 30,
+      "id": 193,
+      "title": "break and continue",
+      "order": 5
+    },
+    {
+      "unit_id": 30,
+      "id": 194,
+      "title": "Nested Loops",
+      "order": 6
+    },
+    {
+      "unit_id": 30,
+      "id": 195,
+      "title": "Multiplication Table",
+      "order": 7
+    },
+    {
+      "unit_id": 30,
+      "id": 196,
+      "title": "Practice: Loops",
+      "order": 8
+    },
+    {
+      "unit_id": 30,
+      "id": 197,
+      "title": "Checkpoint 9",
+      "order": 9
+    },
+    {
+      "unit_id": 31,
+      "id": 198,
+      "title": "What is a List?",
+      "order": 1
+    },
+    {
+      "unit_id": 31,
+      "id": 199,
+      "title": "Modifying Lists",
+      "order": 2
+    },
+    {
+      "unit_id": 31,
+      "id": 200,
+      "title": "Looping Through Lists",
+      "order": 3
+    },
+    {
+      "unit_id": 31,
+      "id": 201,
+      "title": "List Slicing",
+      "order": 4
+    },
+    {
+      "unit_id": 31,
+      "id": 202,
+      "title": "Sorting Lists",
+      "order": 5
+    },
+    {
+      "unit_id": 31,
+      "id": 203,
+      "title": "List Comprehensions",
+      "order": 6
+    },
+    {
+      "unit_id": 31,
+      "id": 204,
+      "title": "Practice: Lists",
+      "order": 7
+    },
+    {
+      "unit_id": 31,
+      "id": 205,
+      "title": "Checkpoint 10",
+      "order": 8
+    },
+    {
+      "unit_id": 32,
+      "id": 206,
+      "title": "What is a Function?",
+      "order": 1
+    },
+    {
+      "unit_id": 32,
+      "id": 207,
+      "title": "Defining Functions",
+      "order": 2
+    },
+    {
+      "unit_id": 32,
+      "id": 208,
+      "title": "Parameters & Arguments",
+      "order": 3
+    },
+    {
+      "unit_id": 32,
+      "id": 209,
+      "title": "Return Values",
+      "order": 4
+    },
+    {
+      "unit_id": 32,
+      "id": 210,
+      "title": "Default Parameters",
+      "order": 5
+    },
+    {
+      "unit_id": 32,
+      "id": 211,
+      "title": "Scope",
+      "order": 6
+    },
+    {
+      "unit_id": 32,
+      "id": 212,
+      "title": "Practice: Functions",
+      "order": 7
+    },
+    {
+      "unit_id": 32,
+      "id": 213,
+      "title": "Checkpoint 11",
+      "order": 8
+    },
+    {
+      "unit_id": 33,
+      "id": 214,
+      "title": "What is a Dictionary?",
+      "order": 1
+    },
+    {
+      "unit_id": 33,
+      "id": 215,
+      "title": "Accessing & Modifying Dictionaries",
+      "order": 2
+    },
+    {
+      "unit_id": 33,
+      "id": 216,
+      "title": "Looping Through Dictionaries",
+      "order": 3
+    },
+    {
+      "unit_id": 33,
+      "id": 217,
+      "title": "What is a Tuple?",
+      "order": 4
+    },
+    {
+      "unit_id": 33,
+      "id": 218,
+      "title": "Sets",
+      "order": 5
+    },
+    {
+      "unit_id": 33,
+      "id": 219,
+      "title": "Practice: Collections",
+      "order": 6
+    },
+    {
+      "unit_id": 33,
+      "id": 220,
+      "title": "Checkpoint 12",
+      "order": 7
+    },
+    {
+      "unit_id": 34,
+      "id": 221,
+      "title": "Common Errors",
+      "order": 1
+    },
+    {
+      "unit_id": 34,
+      "id": 222,
+      "title": "Try and Except",
+      "order": 2
+    },
+    {
+      "unit_id": 34,
+      "id": 223,
+      "title": "Finally & Else",
+      "order": 3
+    },
+    {
+      "unit_id": 34,
+      "id": 224,
+      "title": "Practice: Error Handling",
+      "order": 4
+    },
+    {
+      "unit_id": 34,
+      "id": 225,
+      "title": "Checkpoint 13",
+      "order": 5
+    },
+    {
+      "unit_id": 35,
+      "id": 226,
+      "title": "Reading Files",
+      "order": 1
+    },
+    {
+      "unit_id": 35,
+      "id": 227,
+      "title": "Writing Files",
+      "order": 2
+    },
+    {
+      "unit_id": 35,
+      "id": 228,
+      "title": "Working with JSON",
+      "order": 3
+    },
+    {
+      "unit_id": 35,
+      "id": 229,
+      "title": "Practice: Files",
+      "order": 4
+    },
+    {
+      "unit_id": 35,
+      "id": 230,
+      "title": "Checkpoint 14",
+      "order": 5
+    },
+    {
+      "unit_id": 36,
+      "id": 231,
+      "title": "Project: Expense Tracker",
+      "order": 1
+    },
+    {
+      "unit_id": 36,
+      "id": 232,
+      "title": "Project: Quiz Game",
+      "order": 2
+    },
+    {
+      "unit_id": 36,
+      "id": 233,
+      "title": "Final Assessment",
+      "order": 3
+    },
+    {
+      "unit_id": 50,
+      "id": 501,
+      "title": "Introduction to Web scripting",
+      "order": 1
+    },
+    {
+      "unit_id": 50,
+      "id": 502,
+      "title": "JavaScript Ecosystem",
+      "order": 2
+    },
+    {
+      "unit_id": 50,
+      "id": 503,
+      "title": "Console output",
+      "order": 3
+    },
+    {
+      "unit_id": 50,
+      "id": 504,
+      "title": "Math in the Console",
+      "order": 4
+    },
+    {
+      "unit_id": 50,
+      "id": 505,
+      "title": "Working with Comments",
+      "order": 5
+    },
+    {
+      "unit_id": 50,
+      "id": 506,
+      "title": "Handling Syntax Errors",
+      "order": 6
+    },
+    {
+      "unit_id": 50,
+      "id": 507,
+      "title": "Practice: Console",
+      "order": 7
+    },
+    {
+      "unit_id": 50,
+      "id": 508,
+      "title": "Checkpoint 1",
+      "order": 8
+    },
+    {
+      "unit_id": 51,
+      "id": 509,
+      "title": "Understanding Storage",
+      "order": 1
+    },
+    {
+      "unit_id": 51,
+      "id": 510,
+      "title": "Declaring let",
+      "order": 2
+    },
+    {
+      "unit_id": 51,
+      "id": 511,
+      "title": "Declaring const",
+      "order": 3
+    },
+    {
+      "unit_id": 51,
+      "id": 512,
+      "title": "Legacy var",
+      "order": 4
+    },
+    {
+      "unit_id": 51,
+      "id": 513,
+      "title": "Naming Rules",
+      "order": 5
+    },
+    {
+      "unit_id": 51,
+      "id": 514,
+      "title": "Dynamic typing",
+      "order": 6
+    },
+    {
+      "unit_id": 51,
+      "id": 515,
+      "title": "Practice: Variables",
+      "order": 7
+    },
+    {
+      "unit_id": 51,
+      "id": 516,
+      "title": "Checkpoint 2",
+      "order": 8
+    },
+    {
+      "unit_id": 52,
+      "id": 517,
+      "title": "The Primitive Types",
+      "order": 1
+    },
+    {
+      "unit_id": 52,
+      "id": 518,
+      "title": "Typeof Operator",
+      "order": 2
+    },
+    {
+      "unit_id": 52,
+      "id": 519,
+      "title": "Null and Undefined",
+      "order": 3
+    },
+    {
+      "unit_id": 52,
+      "id": 520,
+      "title": "Type Coercion",
+      "order": 4
+    },
+    {
+      "unit_id": 52,
+      "id": 521,
+      "title": "Explicit Type Conversion",
+      "order": 5
+    },
+    {
+      "unit_id": 52,
+      "id": 522,
+      "title": "Basic Operators",
+      "order": 6
+    },
+    {
+      "unit_id": 52,
+      "id": 523,
+      "title": "Increment and Shorthand",
+      "order": 7
+    },
+    {
+      "unit_id": 52,
+      "id": 524,
+      "title": "Checkpoint 3",
+      "order": 8
+    },
+    {
+      "unit_id": 53,
+      "id": 525,
+      "title": "Comparisons",
+      "order": 1
+    },
+    {
+      "unit_id": 53,
+      "id": 526,
+      "title": "Logical AND (&&)",
+      "order": 2
+    },
+    {
+      "unit_id": 53,
+      "id": 527,
+      "title": "Logical OR (||)",
+      "order": 3
+    },
+    {
+      "unit_id": 53,
+      "id": 528,
+      "title": "Logical NOT (!)",
+      "order": 4
+    },
+    {
+      "unit_id": 53,
+      "id": 529,
+      "title": "The Math Object",
+      "order": 5
+    },
+    {
+      "unit_id": 53,
+      "id": 530,
+      "title": "Complex Conditionals",
+      "order": 6
+    },
+    {
+      "unit_id": 53,
+      "id": 531,
+      "title": "Ternary Operator",
+      "order": 7
+    },
+    {
+      "unit_id": 53,
+      "id": 532,
+      "title": "Checkpoint 4",
+      "order": 8
+    },
+    {
+      "unit_id": 54,
+      "id": 533,
+      "title": "String Length & Indexes",
+      "order": 1
+    },
+    {
+      "unit_id": 54,
+      "id": 534,
+      "title": "Escape Characters",
+      "order": 2
+    },
+    {
+      "unit_id": 54,
+      "id": 535,
+      "title": "Template Literals",
+      "order": 3
+    },
+    {
+      "unit_id": 54,
+      "id": 536,
+      "title": "String Methods (Case)",
+      "order": 4
+    },
+    {
+      "unit_id": 54,
+      "id": 537,
+      "title": "Searching Strings",
+      "order": 5
+    },
+    {
+      "unit_id": 54,
+      "id": 538,
+      "title": "Extracting Substrings",
+      "order": 6
+    },
+    {
+      "unit_id": 54,
+      "id": 539,
+      "title": "Splitting Strings",
+      "order": 7
+    },
+    {
+      "unit_id": 54,
+      "id": 540,
+      "title": "Checkpoint 5",
+      "order": 8
+    },
+    {
+      "unit_id": 55,
+      "id": 541,
+      "title": "Introduction to Arrays",
+      "order": 1
+    },
+    {
+      "unit_id": 55,
+      "id": 542,
+      "title": "Accessing Elements",
+      "order": 2
+    },
+    {
+      "unit_id": 55,
+      "id": 543,
+      "title": "push() and pop()",
+      "order": 3
+    },
+    {
+      "unit_id": 55,
+      "id": 544,
+      "title": "unshift() and shift()",
+      "order": 4
+    },
+    {
+      "unit_id": 55,
+      "id": 545,
+      "title": "Searching Arrays",
+      "order": 5
+    },
+    {
+      "unit_id": 55,
+      "id": 546,
+      "title": "Extracting Array Pieces",
+      "order": 6
+    },
+    {
+      "unit_id": 55,
+      "id": 547,
+      "title": "Nested Arrays",
+      "order": 7
+    },
+    {
+      "unit_id": 55,
+      "id": 548,
+      "title": "Checkpoint 6",
+      "order": 8
+    },
+    {
+      "unit_id": 56,
+      "id": 549,
+      "title": "Introduction to Objects",
+      "order": 1
+    },
+    {
+      "unit_id": 56,
+      "id": 550,
+      "title": "Accessing Properties",
+      "order": 2
+    },
+    {
+      "unit_id": 56,
+      "id": 551,
+      "title": "Bracket Notation",
+      "order": 3
+    },
+    {
+      "unit_id": 56,
+      "id": 552,
+      "title": "Modifying & Adding",
+      "order": 4
+    },
+    {
+      "unit_id": 56,
+      "id": 553,
+      "title": "Deleting Properties",
+      "order": 5
+    },
+    {
+      "unit_id": 56,
+      "id": 554,
+      "title": "Nested Objects",
+      "order": 6
+    },
+    {
+      "unit_id": 56,
+      "id": 555,
+      "title": "Array of Objects",
+      "order": 7
+    },
+    {
+      "unit_id": 56,
+      "id": 556,
+      "title": "Checkpoint 7",
+      "order": 8
+    },
+    {
+      "unit_id": 57,
+      "id": 557,
+      "title": "Introduction to Loops",
+      "order": 1
+    },
+    {
+      "unit_id": 57,
+      "id": 558,
+      "title": "The For Loop",
+      "order": 2
+    },
+    {
+      "unit_id": 57,
+      "id": 559,
+      "title": "Looping Backwards",
+      "order": 3
+    },
+    {
+      "unit_id": 57,
+      "id": 560,
+      "title": "The While Loop",
+      "order": 4
+    },
+    {
+      "unit_id": 57,
+      "id": 561,
+      "title": "break and continue",
+      "order": 5
+    },
+    {
+      "unit_id": 57,
+      "id": 562,
+      "title": "Nested Loops",
+      "order": 6
+    },
+    {
+      "unit_id": 57,
+      "id": 563,
+      "title": "Looping Arrays (For...Of)",
+      "order": 7
+    },
+    {
+      "unit_id": 57,
+      "id": 564,
+      "title": "Checkpoint 8",
+      "order": 8
+    },
+    {
+      "unit_id": 58,
+      "id": 565,
+      "title": "Introduction to Functions",
+      "order": 1
+    },
+    {
+      "unit_id": 58,
+      "id": 566,
+      "title": "Parameters and Arguments",
+      "order": 2
+    },
+    {
+      "unit_id": 58,
+      "id": 567,
+      "title": "The Return Statement",
+      "order": 3
+    },
+    {
+      "unit_id": 58,
+      "id": 568,
+      "title": "Variable Scope",
+      "order": 4
+    },
+    {
+      "unit_id": 58,
+      "id": 569,
+      "title": "Arrow Functions",
+      "order": 5
+    },
+    {
+      "unit_id": 58,
+      "id": 570,
+      "title": "Higher Order Functions",
+      "order": 6
+    },
+    {
+      "unit_id": 58,
+      "id": 571,
+      "title": "Array Iteration (forEach)",
+      "order": 7
+    },
+    {
+      "unit_id": 58,
+      "id": 572,
+      "title": "Checkpoint 9",
+      "order": 8
+    },
+    {
+      "unit_id": 59,
+      "id": 573,
+      "title": "let vs var vs const",
+      "order": 1
+    },
+    {
+      "unit_id": 59,
+      "id": 574,
+      "title": "Block Scope",
+      "order": 2
+    },
+    {
+      "unit_id": 59,
+      "id": 575,
+      "title": "Lexical Scope",
+      "order": 3
+    },
+    {
+      "unit_id": 59,
+      "id": 576,
+      "title": "Closures",
+      "order": 4
+    },
+    {
+      "unit_id": 59,
+      "id": 577,
+      "title": "Practical Closures",
+      "order": 5
+    },
+    {
+      "unit_id": 59,
+      "id": 578,
+      "title": "Hoisting",
+      "order": 6
+    },
+    {
+      "unit_id": 59,
+      "id": 579,
+      "title": "The Temporal Dead Zone",
+      "order": 7
+    },
+    {
+      "unit_id": 59,
+      "id": 580,
+      "title": "Checkpoint 10",
+      "order": 8
+    },
+    {
+      "unit_id": 60,
+      "id": 581,
+      "title": "Introduction to the DOM",
+      "order": 1
+    },
+    {
+      "unit_id": 60,
+      "id": 582,
+      "title": "getElementById",
+      "order": 2
+    },
+    {
+      "unit_id": 60,
+      "id": 583,
+      "title": "querySelector",
+      "order": 3
+    },
+    {
+      "unit_id": 60,
+      "id": 584,
+      "title": "Modifying Text",
+      "order": 4
+    },
+    {
+      "unit_id": 60,
+      "id": 585,
+      "title": "Modifying Styles",
+      "order": 5
+    },
+    {
+      "unit_id": 60,
+      "id": 586,
+      "title": "Modifying Classes",
+      "order": 6
+    },
+    {
+      "unit_id": 60,
+      "id": 587,
+      "title": "Creating Elements",
+      "order": 7
+    },
+    {
+      "unit_id": 60,
+      "id": 588,
+      "title": "Checkpoint 11",
+      "order": 8
+    },
+    {
+      "unit_id": 61,
+      "id": 589,
+      "title": "Introduction to Events",
+      "order": 1
+    },
+    {
+      "unit_id": 61,
+      "id": 590,
+      "title": "addEventListener",
+      "order": 2
+    },
+    {
+      "unit_id": 61,
+      "id": 591,
+      "title": "The Event Object",
+      "order": 3
+    },
+    {
+      "unit_id": 61,
+      "id": 592,
+      "title": "Forms and preventDefault",
+      "order": 4
+    },
+    {
+      "unit_id": 61,
+      "id": 593,
+      "title": "Keyboard Events",
+      "order": 5
+    },
+    {
+      "unit_id": 61,
+      "id": 594,
+      "title": "Event Bubbling",
+      "order": 6
+    },
+    {
+      "unit_id": 61,
+      "id": 595,
+      "title": "Event Delegation",
+      "order": 7
+    },
+    {
+      "unit_id": 61,
+      "id": 596,
+      "title": "Checkpoint 12",
+      "order": 8
+    },
+    {
+      "unit_id": 62,
+      "id": 597,
+      "title": "Sync vs Async",
+      "order": 1
+    },
+    {
+      "unit_id": 62,
+      "id": 598,
+      "title": "Introduction to Promises",
+      "order": 2
+    },
+    {
+      "unit_id": 62,
+      "id": 599,
+      "title": ".then() and .catch()",
+      "order": 3
+    },
+    {
+      "unit_id": 62,
+      "id": 600,
+      "title": "The async Keyword",
+      "order": 4
+    },
+    {
+      "unit_id": 62,
+      "id": 601,
+      "title": "The await Keyword",
+      "order": 5
+    },
+    {
+      "unit_id": 62,
+      "id": 602,
+      "title": "Try and Catch",
+      "order": 6
+    },
+    {
+      "unit_id": 62,
+      "id": 603,
+      "title": "Promise.all()",
+      "order": 7
+    },
+    {
+      "unit_id": 62,
+      "id": 604,
+      "title": "Checkpoint 13",
+      "order": 8
+    },
+    {
+      "unit_id": 63,
+      "id": 605,
+      "title": "Introduction to APIs",
+      "order": 1
+    },
+    {
+      "unit_id": 63,
+      "id": 606,
+      "title": "Using fetch()",
+      "order": 2
+    },
+    {
+      "unit_id": 63,
+      "id": 607,
+      "title": "Parsing JSON",
+      "order": 3
+    },
+    {
+      "unit_id": 63,
+      "id": 608,
+      "title": "Error Handling in Fetch",
+      "order": 4
+    },
+    {
+      "unit_id": 63,
+      "id": 609,
+      "title": "HTTP Methods",
+      "order": 5
+    },
+    {
+      "unit_id": 63,
+      "id": 610,
+      "title": "Sending Data",
+      "order": 6
+    },
+    {
+      "unit_id": 63,
+      "id": 611,
+      "title": "Putting it together",
+      "order": 7
+    },
+    {
+      "unit_id": 63,
+      "id": 612,
+      "title": "Checkpoint 14",
+      "order": 8
+    },
+    {
+      "unit_id": 64,
+      "id": 613,
+      "title": "The Final Assessment",
+      "order": 1
+    },
+    {
+      "unit_id": 64,
+      "id": 614,
+      "title": "Data Parsing Challenge",
+      "order": 2
+    },
+    {
+      "unit_id": 64,
+      "id": 615,
+      "title": "Logic Challenge",
+      "order": 3
+    },
+    {
+      "unit_id": 64,
+      "id": 616,
+      "title": "Async Challenge",
+      "order": 4
+    },
+    {
+      "unit_id": 64,
+      "id": 617,
+      "title": "JavaScript Mastery",
+      "order": 5
+    }
+  ],
+  "challenges": [
+    {
+      "lesson_id": 131,
+      "id": 1175,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1176,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1177,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1178,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1179,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1180,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1181,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1182,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 131,
+      "id": 1183,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1184,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1185,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1186,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1187,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1188,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1189,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1190,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1191,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 132,
+      "id": 1192,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1193,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1194,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1195,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1196,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1197,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1198,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1199,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1200,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 133,
+      "id": 1201,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1202,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1203,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1204,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1205,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1206,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1207,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1208,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1209,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 134,
+      "id": 1210,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1211,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1212,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1213,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1214,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1215,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1216,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1217,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1218,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 135,
+      "id": 1219,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1220,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1221,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1222,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1223,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1224,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1225,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1226,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1227,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 136,
+      "id": 1228,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1229,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1230,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1231,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1232,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1233,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1234,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1235,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1236,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 137,
+      "id": 1237,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1238,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1239,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1240,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1241,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1242,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1243,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1244,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1245,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 138,
+      "id": 1246,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1247,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1248,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1249,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1250,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1251,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1252,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1253,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1254,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 139,
+      "id": 1255,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1256,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1257,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1258,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1259,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1260,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1261,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1262,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1263,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 140,
+      "id": 1264,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1265,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1266,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1267,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1268,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1269,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1270,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1271,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1272,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 141,
+      "id": 1273,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1274,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1275,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1276,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1277,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1278,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1279,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1280,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1281,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 142,
+      "id": 1282,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1283,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1284,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1285,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1286,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1287,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1288,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1289,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1290,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 143,
+      "id": 1291,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1292,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1293,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1294,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1295,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1296,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1297,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1298,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1299,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 144,
+      "id": 1300,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1301,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1302,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1303,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1304,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1305,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1306,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1307,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1308,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 145,
+      "id": 1309,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1310,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1311,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1312,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1313,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1314,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1315,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1316,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1317,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 146,
+      "id": 1318,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1319,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1320,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1321,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1322,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1323,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1324,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1325,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1326,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 147,
+      "id": 1327,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1328,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1329,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1330,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1331,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1332,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1333,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1334,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1335,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 148,
+      "id": 1336,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1337,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1338,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1339,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1340,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1341,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1342,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1343,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1344,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 149,
+      "id": 1345,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1346,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1347,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1348,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1349,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1350,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1351,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1352,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1353,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 150,
+      "id": 1354,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1355,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1356,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1357,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1358,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1359,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1360,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1361,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1362,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 151,
+      "id": 1363,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1364,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1365,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1366,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1367,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1368,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1369,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1370,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1371,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 152,
+      "id": 1372,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1373,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1374,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1375,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1376,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1377,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1378,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1379,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1380,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 153,
+      "id": 1381,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1382,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1383,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1384,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1385,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1386,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1387,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1388,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1389,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 154,
+      "id": 1390,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1391,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1392,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1393,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1394,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1395,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1396,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1397,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1398,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 155,
+      "id": 1399,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1400,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1401,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1402,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1403,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1404,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1405,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1406,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1407,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 156,
+      "id": 1408,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1409,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1410,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1411,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1412,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1413,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1414,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1415,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1416,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 157,
+      "id": 1417,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1418,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1419,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1420,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1421,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1422,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1423,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1424,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1425,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 158,
+      "id": 1426,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1427,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1428,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1429,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1430,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1431,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1432,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1433,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1434,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 159,
+      "id": 1435,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1436,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1437,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1438,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1439,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1440,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1441,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1442,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1443,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 160,
+      "id": 1444,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1445,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1446,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1447,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1448,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1449,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1450,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1451,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1452,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 161,
+      "id": 1453,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1454,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1455,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1456,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1457,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1458,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1459,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1460,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1461,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 162,
+      "id": 1462,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1463,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1464,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1465,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1466,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1467,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1468,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1469,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1470,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 163,
+      "id": 1471,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1472,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1473,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1474,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1475,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1476,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1477,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1478,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1479,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 164,
+      "id": 1480,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1481,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1482,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1483,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1484,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1485,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1486,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1487,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1488,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 165,
+      "id": 1489,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1490,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1491,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1492,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1493,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1494,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1495,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1496,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1497,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 166,
+      "id": 1498,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1499,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1500,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1501,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1502,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1503,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1504,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1505,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1506,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 167,
+      "id": 1507,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1508,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1509,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1510,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1511,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1512,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1513,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1514,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1515,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 168,
+      "id": 1516,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1517,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1518,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1519,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1520,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1521,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1522,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1523,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1524,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 169,
+      "id": 1525,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1526,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1527,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1528,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1529,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1530,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1531,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1532,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1533,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 170,
+      "id": 1534,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1535,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1536,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1537,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1538,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1539,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1540,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1541,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1542,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 171,
+      "id": 1543,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1544,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1545,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1546,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1547,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1548,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1549,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1550,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1551,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 172,
+      "id": 1552,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1553,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1554,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1555,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1556,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1557,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1558,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1559,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1560,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 173,
+      "id": 1561,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1562,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1563,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1564,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1565,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1566,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1567,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1568,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1569,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 174,
+      "id": 1570,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1571,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1572,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1573,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1574,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1575,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1576,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1577,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1578,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 175,
+      "id": 1579,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1580,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1581,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1582,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1583,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1584,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1585,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1586,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1587,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 176,
+      "id": 1588,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1589,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1590,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1591,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1592,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1593,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1594,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1595,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1596,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 177,
+      "id": 1597,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1598,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1599,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1600,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1601,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1602,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1603,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1604,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1605,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 178,
+      "id": 1606,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1607,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1608,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1609,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1610,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1611,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1612,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1613,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1614,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 179,
+      "id": 1615,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1616,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1617,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1618,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1619,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1620,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1621,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1622,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1623,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 180,
+      "id": 1624,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1625,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1626,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1627,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1628,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1629,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1630,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1631,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1632,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 181,
+      "id": 1633,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1634,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1635,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1636,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1637,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1638,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1639,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1640,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1641,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 182,
+      "id": 1642,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1643,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1644,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1645,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1646,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1647,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1648,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1649,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1650,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 183,
+      "id": 1651,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1652,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1653,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1654,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1655,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1656,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1657,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1658,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1659,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 184,
+      "id": 1660,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1661,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1662,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1663,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1664,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1665,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1666,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1667,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1668,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 185,
+      "id": 1669,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1670,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1671,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1672,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1673,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1674,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1675,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1676,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1677,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 186,
+      "id": 1678,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1679,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1680,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1681,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1682,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1683,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1684,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1685,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1686,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 187,
+      "id": 1687,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1688,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1689,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1690,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1691,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1692,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1693,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1694,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1695,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 188,
+      "id": 1696,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1697,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1698,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1699,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1700,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1701,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1702,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1703,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1704,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 189,
+      "id": 1705,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1706,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1707,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1708,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1709,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1710,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1711,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1712,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1713,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 190,
+      "id": 1714,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1715,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1716,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1717,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1718,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1719,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1720,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1721,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1722,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 191,
+      "id": 1723,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1724,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1725,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1726,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1727,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1728,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1729,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1730,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1731,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 192,
+      "id": 1732,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1733,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1734,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1735,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1736,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1737,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1738,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1739,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1740,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 193,
+      "id": 1741,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1742,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1743,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1744,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1745,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1746,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1747,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1748,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1749,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 194,
+      "id": 1750,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1751,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1752,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1753,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1754,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1755,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1756,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1757,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1758,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 195,
+      "id": 1759,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1760,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1761,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1762,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1763,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1764,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1765,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1766,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1767,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 196,
+      "id": 1768,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1769,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1770,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1771,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1772,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1773,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1774,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1775,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1776,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 197,
+      "id": 1777,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1778,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1779,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1780,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1781,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1782,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1783,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1784,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1785,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 198,
+      "id": 1786,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1787,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1788,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1789,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1790,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1791,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1792,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1793,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1794,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 199,
+      "id": 1795,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1796,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1797,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1798,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1799,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1800,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1801,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1802,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1803,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 200,
+      "id": 1804,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2121,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2122,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2123,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2124,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2125,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2126,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2127,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2128,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 201,
+      "id": 2129,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2130,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2131,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2132,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2133,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2134,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2135,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2136,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2137,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 204,
+      "id": 2138,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2591,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2592,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2593,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2594,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2595,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2596,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2597,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2598,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 202,
+      "id": 2599,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2600,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2601,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2602,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2603,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2604,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2605,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2606,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2607,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 203,
+      "id": 2608,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2609,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2610,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2611,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2612,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2613,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2614,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2615,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2616,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 205,
+      "id": 2617,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2618,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2619,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2620,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2621,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2622,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2623,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2624,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2625,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 206,
+      "id": 2626,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2627,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2628,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2629,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2630,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2631,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2632,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2633,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2634,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 207,
+      "id": 2635,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2636,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2637,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2638,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2639,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2640,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2641,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2642,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2643,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 208,
+      "id": 2644,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2645,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2646,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2647,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2648,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2649,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2650,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2651,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2652,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 209,
+      "id": 2653,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2654,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2655,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2656,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2657,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2658,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2659,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2660,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2661,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 210,
+      "id": 2662,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2663,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2664,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2665,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2666,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2667,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2668,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2669,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2670,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 211,
+      "id": 2671,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2672,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2673,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2674,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2675,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2676,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2677,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2678,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2679,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 212,
+      "id": 2680,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2681,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2682,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2683,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2684,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2685,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2686,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2687,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2688,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 213,
+      "id": 2689,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2690,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2691,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2692,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2693,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2694,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2695,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2696,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2697,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 214,
+      "id": 2698,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2699,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2700,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2701,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2702,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2703,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2704,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2705,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2706,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 215,
+      "id": 2707,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2708,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2709,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2710,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2711,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2712,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2713,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2714,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2715,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 216,
+      "id": 2716,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2717,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2718,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2719,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2720,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2721,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2722,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2723,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2724,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 217,
+      "id": 2725,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2726,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2727,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2728,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2729,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2730,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2731,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2732,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2733,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 218,
+      "id": 2734,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2735,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2736,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2737,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2738,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2739,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2740,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2741,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2742,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 219,
+      "id": 2743,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2744,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2745,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2746,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2747,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2748,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2749,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2750,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2751,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 220,
+      "id": 2752,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2753,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2754,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2755,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2756,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2757,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2758,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2759,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2760,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 221,
+      "id": 2761,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2762,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2763,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2764,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2765,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2766,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2767,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2768,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2769,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 222,
+      "id": 2770,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2771,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2772,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2773,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2774,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2775,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2776,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2777,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2778,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 223,
+      "id": 2779,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2780,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2781,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2782,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2783,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2784,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2785,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2786,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2787,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 224,
+      "id": 2788,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2789,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2790,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2791,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2792,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2793,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2794,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2795,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2796,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 225,
+      "id": 2797,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2798,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2799,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2800,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2801,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2802,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2803,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2804,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2805,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 226,
+      "id": 2806,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2807,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2808,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2809,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2810,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2811,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2812,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2813,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2814,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 227,
+      "id": 2815,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2816,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2817,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2818,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2819,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2820,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2821,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2822,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2823,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 228,
+      "id": 2824,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2825,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2826,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2827,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2828,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2829,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2830,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2831,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2832,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 229,
+      "id": 2833,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2834,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2835,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2836,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2837,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2838,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2839,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2840,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2841,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 230,
+      "id": 2842,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2843,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2844,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2845,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2846,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2847,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2848,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2849,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2850,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 231,
+      "id": 2851,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2852,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2853,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2854,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2855,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2856,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2857,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2858,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2859,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 232,
+      "id": 2860,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2861,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2862,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2863,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2864,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2865,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2866,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2867,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2868,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 233,
+      "id": 2869,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5549,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5550,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5551,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5552,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5553,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5554,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5555,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5556,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 501,
+      "id": 5557,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5558,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5559,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5560,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5561,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5562,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5563,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5564,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5565,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 502,
+      "id": 5566,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5567,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5568,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5569,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5570,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5571,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5572,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5573,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5574,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 503,
+      "id": 5575,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5576,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5577,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5578,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5579,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5580,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5581,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5582,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5583,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 504,
+      "id": 5584,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5585,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5586,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5587,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5588,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5589,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5590,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5591,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5592,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 505,
+      "id": 5593,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5594,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5595,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5596,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5597,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5598,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5599,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5600,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5601,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 506,
+      "id": 5602,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5603,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5604,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5605,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5606,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5607,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5608,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5609,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5610,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 507,
+      "id": 5611,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5612,
+      "order": 1,
+      "lesson_step": "motivation"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5613,
+      "order": 2,
+      "lesson_step": "explanation"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5614,
+      "order": 3,
+      "lesson_step": "comprehension"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5615,
+      "order": 4,
+      "lesson_step": "fill_blank"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5616,
+      "order": 5,
+      "lesson_step": "predict_output"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5617,
+      "order": 6,
+      "lesson_step": "guided_practice"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5618,
+      "order": 7,
+      "lesson_step": "independent_practice"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5619,
+      "order": 8,
+      "lesson_step": "knowledge_check"
+    },
+    {
+      "lesson_id": 508,
+      "id": 5620,
+      "order": 9,
+      "lesson_step": "recap"
+    },
+    {
+      "lesson_id": 509,
+      "id": 5621,
+      "order": 1,
+      "lesson_step": "motivation"
+    }
+  ]
+}

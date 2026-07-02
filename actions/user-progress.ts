@@ -1,55 +1,59 @@
 "use server";
 
-import { auth, currentUser } from "@clerk/nextjs/server";
-import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 import { MAX_HEARTS, POINTS_TO_REFILL } from "@/constants";
-import db from "@/db/drizzle";
 import {
   getCourseById,
   getUserProgress,
   getUserSubscription,
 } from "@/db/queries";
-import { challengeProgress, challenges, userProgress } from "@/db/schema";
+import { createClient } from "@/lib/supabase/server";
 
 export const upsertUserProgress = async (courseId: number) => {
-  const { userId } = await auth();
-  const user = await currentUser();
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
 
-  if (!userId || !user) throw new Error("Unauthorized.");
+  if (!user) throw new Error("Unauthorized.");
+
+  const userId = user.id;
 
   const course = await getCourseById(courseId);
 
   if (!course) throw new Error("Course not found.");
 
-  if (!course.units.length || !course.units[0].lessons.length)
-    throw new Error("Course is empty.");
+  // We no longer throw if the course is empty — the user should be able
+  // to enroll in a course even if content hasn't been added yet.
+  // The course roadmap page handles empty units gracefully.
 
   const existingUserProgress = await getUserProgress();
 
   if (existingUserProgress) {
-    await db
-      .update(userProgress)
-      .set({
-        activeCourseId: courseId,
-        userName: user.firstName || "User",
-        userImageSrc: user.imageUrl || "/mascot.svg",
+    const { error } = await supabase
+      .from("user_progress")
+      .update({
+        active_course_id: courseId,
+        user_name: user.user_metadata?.name || "User",
+        user_image_src: user.user_metadata?.avatar_url || "/mascot.svg",
       })
-      .where(eq(userProgress.userId, userId));
+      .eq("user_id", userId);
+
+    if (error) throw new Error(error.message);
 
     revalidatePath("/courses");
     revalidatePath("/learn");
     redirect("/learn");
   }
 
-  await db.insert(userProgress).values({
-    userId,
-    activeCourseId: courseId,
-    userName: user.firstName || "User",
-    userImageSrc: user.imageUrl || "/mascot.svg",
+  const { error } = await supabase.from("user_progress").insert({
+    user_id: userId,
+    active_course_id: courseId,
+    user_name: user.user_metadata?.name || "User",
+    user_image_src: user.user_metadata?.avatar_url || "/mascot.svg",
   });
+
+  if (error) throw new Error(error.message);
 
   revalidatePath("/courses");
   revalidatePath("/learn");
@@ -57,27 +61,31 @@ export const upsertUserProgress = async (courseId: number) => {
 };
 
 export const reduceHearts = async (challengeId: number) => {
-  const { userId } = await auth();
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
 
-  if (!userId) throw new Error("Unauthorized.");
+  if (!user) throw new Error("Unauthorized.");
+  const userId = user.id;
 
   const currentUserProgress = await getUserProgress();
   const userSubscription = await getUserSubscription();
 
-  const challenge = await db.query.challenges.findFirst({
-    where: eq(challenges.id, challengeId),
-  });
+  const { data: challenge, error: challengeError } = await supabase
+    .from("challenges")
+    .select("*")
+    .eq("id", challengeId)
+    .single();
 
-  if (!challenge) throw new Error("Challenge not found.");
+  if (challengeError || !challenge) throw new Error("Challenge not found.");
 
-  const lessonId = challenge.lessonId;
+  const lessonId = challenge.lesson_id;
 
-  const existingChallengeProgress = await db.query.challengeProgress.findFirst({
-    where: and(
-      eq(challengeProgress.userId, userId),
-      eq(challengeProgress.challengeId, challengeId)
-    ),
-  });
+  const { data: existingChallengeProgress } = await supabase
+    .from("challenge_progress")
+    .select("*")
+    .eq("user_id", userId)
+    .eq("challenge_id", challengeId)
+    .single();
 
   const isPractice = !!existingChallengeProgress;
 
@@ -89,12 +97,14 @@ export const reduceHearts = async (challengeId: number) => {
 
   if (currentUserProgress.hearts === 0) return { error: "hearts" };
 
-  await db
-    .update(userProgress)
-    .set({
+  const { error } = await supabase
+    .from("user_progress")
+    .update({
       hearts: Math.max(currentUserProgress.hearts - 1, 0),
     })
-    .where(eq(userProgress.userId, userId));
+    .eq("user_id", userId);
+
+  if (error) throw new Error(error.message);
 
   revalidatePath("/shop");
   revalidatePath("/learn");
@@ -106,22 +116,30 @@ export const reduceHearts = async (challengeId: number) => {
 export const refillHearts = async () => {
   const currentUserProgress = await getUserProgress();
 
-  if (!currentUserProgress) throw new Error("User progress not found.");
+  if (!currentUserProgress) return { error: "User progress not found." };
   if (currentUserProgress.hearts === MAX_HEARTS)
-    throw new Error("Hearts are already full.");
+    return { error: "Hearts are already full." };
   if (currentUserProgress.points < POINTS_TO_REFILL)
-    throw new Error("Not enough points.");
+    return { error: "Not enough points." };
 
-  await db
-    .update(userProgress)
-    .set({
+  const supabase = await createClient();
+
+  const { error } = await supabase
+    .from("user_progress")
+    .update({
       hearts: MAX_HEARTS,
       points: currentUserProgress.points - POINTS_TO_REFILL,
     })
-    .where(eq(userProgress.userId, currentUserProgress.userId));
+    .eq("user_id", currentUserProgress.user_id);
+
+  if (error) {
+    console.error("Supabase update error in refillHearts:", error);
+    return { error: error.message };
+  }
 
   revalidatePath("/shop");
   revalidatePath("/learn");
   revalidatePath("/quests");
   revalidatePath("/leaderboard");
+  return { success: true };
 };

@@ -51,27 +51,9 @@ const Banner = ({ hide, setHide }: BannerProps) => {
           <p className="text-sm font-normal">
             📢{" "}
             <strong className="font-semibold">
-              Account creation is currently not working
+              Welcome to Codez!
             </strong>{" "}
-            due to Clerk&apos;s 500-user limit. To try it out, please{" "}
-            <Link
-              href={`${links.sourceCode}/fork`}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="text-green-600 transition-opacity hover:opacity-75"
-            >
-              fork this repo
-            </Link>{" "}
-            or{" "}
-            <Link
-              href={`mailto:${links.email}`}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="text-green-600 transition-opacity hover:opacity-75"
-            >
-              Contact me
-            </Link>{" "}
-            for access.
+            The ultimate platform to master coding interactively. Join thousands of developers and level up your skills today.
           </p>
         </div>
 
